@@ -39,6 +39,7 @@ public class Invoice {
 		this.location = location;
 	}
 
+	//getAmount
 	public Double getAmount() {
 		return amount;
 	}

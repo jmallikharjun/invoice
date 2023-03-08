@@ -12,6 +12,16 @@ public class Invoice {
 	@GeneratedValue
 	private Long id;
 	private String name;
+	
+	public Invoice() {
+		// TODO Auto-generated constructor stub
+	}
+	public Invoice(Long id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+
 	private String location;
 	private Double amount;
 

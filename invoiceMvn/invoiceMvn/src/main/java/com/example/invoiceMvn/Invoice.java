@@ -43,6 +43,7 @@ public class Invoice {
 		return amount;
 	}
 
+	//setAmount
 	public void setAmount(Double amount) {
 		this.amount = amount;
 	}

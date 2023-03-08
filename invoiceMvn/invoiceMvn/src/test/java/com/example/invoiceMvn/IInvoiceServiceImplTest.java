@@ -43,6 +43,7 @@ class IInvoiceServiceImplTest {
 		assertEquals(2, allInvoices.size());
 	}
 
+	//new test
 	@Test
 	void testGetAllInvoices1() {
 		List<Invoice> invoices = new ArrayList<>();

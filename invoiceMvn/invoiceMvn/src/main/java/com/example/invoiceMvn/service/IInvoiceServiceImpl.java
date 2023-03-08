@@ -50,4 +50,9 @@ public class IInvoiceServiceImpl implements IInvoiceService {
 
 	}
 
+	public void Invoice(Invoice invoice) {
+		// TODO Auto-generated method stub
+
+	}
+
 }

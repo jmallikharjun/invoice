@@ -74,14 +74,6 @@ public class InvoiceController {
 
 	}
 
-	@PostMapping("/up")
-	public String update(@ModelAttribute Invoice invoice, Model model) {
-		Long id = invoiceService.saveInvoice(invoice).getId();
-
-		List<Invoice> invoiceList = invoiceService.getAllInvoices();
-		model.addAttribute("list", invoiceList);
-		return "listInvoice";
-
-	}
+	
 
 }
